@@ -6,7 +6,7 @@ echo ""
 echo "Please be patient, this may take some moment"
 echo ""
 
-curl -s http://www.nbcolympics.com/medals > temp.html
+curl -s http://www.nbcolympics.com/medals > .temp
 python olym.py
 
 echo ""
@@ -15,6 +15,6 @@ echo ""
 
 while [ 1 ]
 do
-	curl -s http://www.nbcolympics.com/medals > .temp.html
+	curl -s http://www.nbcolympics.com/medals > .temp
 	python update.py
 done
