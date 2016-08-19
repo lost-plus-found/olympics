@@ -15,6 +15,6 @@ echo ""
 
 while [ 1 ]
 do
-	curl -s http://www.nbcolympics.com/medals > temp.html
+	curl -s http://www.nbcolympics.com/medals > .temp.html
 	python update.py
 done

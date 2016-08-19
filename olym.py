@@ -2,7 +2,7 @@ import urllib2
 from bs4 import BeautifulSoup
 from prettytable import PrettyTable
 
-page = open('./temp.html', 'r').read()
+page = open('./.temp.html', 'r').read()
 soup = BeautifulSoup(page, "lxml")
 result = soup.find('table')
 
