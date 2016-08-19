@@ -23,9 +23,11 @@ or download a source code: [olympics](https://github.com/lost-plus-found/olympic
 ### Running the command
 
 $ `bash oylm.bash`
+
 `Hi! Welcome to Indian Olympics Medal Tally Updater`
 
 `Enter the country name.`
+
 `=> India`
 
 ![Screenshot](./assets/tally.png "Screenshot 1")
